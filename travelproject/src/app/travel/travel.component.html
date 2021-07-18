@@ -1,0 +1,19 @@
+<div class="container-fluid mt-5">
+    <div class="row justify-content-around">
+      <div class="card" style="width: 22rem;" *ngFor="let products of products">
+        <img class="card-img-top" src="{{products.image}}" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title text-center">{{ products.destination }}</h5>
+          <div class="details">
+            <p>{{ products.startDate }}</p>
+            <p>{{ products.duration}}</p>
+            <p>{{ products.description}}</p>  <br>
+            <p class="price">Price: {{ products.price | currency }} </p>
+              
+          </div>
+          <a (click)="addToCart(products)" class="btn btn-danger" > Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
