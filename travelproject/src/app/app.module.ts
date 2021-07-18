@@ -11,6 +11,7 @@ import { HeroComponent } from './hero/hero.component';
 import { CartComponent } from './cart/cart.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ConctactComponent } from './conctact/conctact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ConctactComponent } from './conctact/conctact.component';
     NavbarComponent,
     HeroComponent,
     CartComponent,
-    ConctactComponent
+    ConctactComponent,
+    FooterComponent
 
   ],
   imports: [

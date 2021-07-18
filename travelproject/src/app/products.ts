@@ -10,7 +10,7 @@ export const products = [
   },
   {
     destination: 'Kruger National Park, South Africa',
-    description: 'dThe Kruger National Park is a vast space in northeastern South Africa that is home to a huge array of wildlife. The park has safari experiences of all kinds, allowing you the opportunity to escape busy city living and get back to nature.',
+    description: 'The Kruger National Park is a vast space in northeastern South Africa that is home to a huge array of wildlife. The park has safari experiences of all kinds, allowing you the opportunity to escape busy city living and get back to nature.',
     startDate:'21.11.2021' ,
     duration: '14 Days',
     price: '750 ' ,
@@ -76,6 +76,14 @@ export const products = [
     duration: '2 weeks',
     price: '350 ' ,
     image: '../assets/images/scotland.jpg',
+    quantity: 0
+  }, {
+    destination: 'Hobbiton™ Movie Set Tours',
+    description: 'The Shire - otherwise known as Hobbiton - is a village of 44 hobbit holes dug into the hillside, surrounded by hobbit gardens and orchards.A must for every Tolkien and LOTR fan. ',
+    startDate:'21.06.2023' ,
+    duration: '5 Days',
+    price: '300 ' ,
+    image: '../assets/images/hobbiton.jpg',
     quantity: 0
   }
 
